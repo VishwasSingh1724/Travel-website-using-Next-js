@@ -16,16 +16,8 @@ npm install && npm run dev
 - Shadcn
 - Tailwind
 
-## 🔓 Benefits
-- Server Actions
-- Middleware/Protected Routes in Nextjs Backend and Frontend
-- Crediting System with Stripe
-  Implementing Chart System
-- Mobile Responsiveness
-- Learn all the stack in one video
 
-## Author
-Built with love ❤️ by Pius Lucky https://luckypius.netlify.app/
+
 
 
 
