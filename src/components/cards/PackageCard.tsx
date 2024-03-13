@@ -96,7 +96,7 @@ function PackageCard({
         <p className="text-[24px] font-bold">{ellipsify(name, 28)}</p>
         <div className="font-semibold text-gray-500 my-4">
           <span className="text-primary text-[18px]">
-            cs. {per_person_price_in_credit}/-
+            ₹. {per_person_price_in_credit*100}/-
           </span>
           <span className="ml-2">Per person</span>
         </div>

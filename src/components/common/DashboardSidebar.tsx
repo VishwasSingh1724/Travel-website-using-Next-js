@@ -117,8 +117,9 @@ function DashboardSidebar({
 
   function getCurrentDimension() {
     if (typeof window !== "undefined") {
-      return window?.innerWidth;
+      return window?.innerWidth || null; // Handle undefined or null value for innerWidth
     }
+    return null; // Return a default value when window is not available
   }
 
   const [screenSize, setScreenSize] = useState(getCurrentDimension());

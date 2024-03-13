@@ -162,11 +162,11 @@ class ApiClient {
       //@ts-ignore
       error.response?.data?.response?.meta?.message === "Invalid Token"
     ) {
-      setTimeout(() => {
-        if (typeof window !== "undefined") {
-          window.location.href = "/";
-        }
-      }, 500);
+      // setTimeout(() => {
+      //   if (typeof window !== "undefined") {
+      //     window.location.href = "/";
+      //   }
+      // }, 500);
     }
   }
 
