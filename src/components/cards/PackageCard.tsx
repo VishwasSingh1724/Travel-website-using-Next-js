@@ -68,12 +68,12 @@ function PackageCard({
       });
   };
   return (
-    <div className="shadow-md inline-block rounded-[4rem] max-w-[450px]">
+    <div className="shadow-lg inline-block rounded-lg max-w-[450px] md:mr-3 ">
       <div className="relative ">
         <img
           src={image}
           alt="package image"
-          className="h-[338px] w-full object-cover  rounded-t-[4rem] z-10"
+          className="h-[338px] w-full object-cover  rounded-lg z-10 md:h-[250px]"
         />
 
         <div className="absolute -bottom-6 left-5 z-20">
