@@ -108,7 +108,7 @@ export async function checkoutCredits(transaction: CheckoutTransactionParams) {
     line_items: [
       {
         price_data: {
-          currency: "inr",
+          currency: "usd",
           unit_amount: amount,
           product_data: {
             name: "TOP_UP",
